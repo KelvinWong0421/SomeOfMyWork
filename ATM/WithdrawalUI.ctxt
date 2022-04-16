@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WithdrawalUI
+comment1.params=bPanel\ userAccountNumber\ atmBankDatabase\ atmCashDispenser
+comment1.target=WithdrawalUI(javax.swing.JPanel,\ int,\ BankDatabase,\ CashDispenser)
+comment2.params=
+comment2.target=void\ confirmation()
+comment2.text=public\ void\ confirmation()\ \r\n\t{\r\n\t\tint\ confirmation\ \=\ JOptionPane.showConfirmDialog(null,\ "You\ are\ going\ to\ withdrawal\ $"\ +\ amount,\ \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t"Confirmation",JOptionPane.YES_NO_OPTION);\ //\ confirm\ the\ amount\r\n\t\tif\ (confirmation\ \=\=\ 0)\r\n\t\t{\r\n\t\t\texecute();\r\n\t\t\tif\ (exiting\ \=\=\ true)\r\n\t\t\texit();\r\n\t\t\t\ \ /*\ JOptionPane.showMessageDialog(null,\ "\\nPlease\ take\ your\ card\ now.");\r\n\t\t\t\ \ \ JOptionPane.showMessageDialog(null,\ "\\nPlease\ take\ your\ cash\ now.");\ \r\n\t\t\t\ \ \ JOptionPane.showMessageDialog(null,\ "\\nThank\ you\!\ Bye\ bye\!");\r\n\t\t\t\ \ \ basePanel.remove(withdrawalPanel);\ \ \ \r\n\t\t\t\ \ \ basePanel.repaint();\r\n\t\t\t\ \ \ returnToLogin(info,\ basePanel);\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t\tbasePanel.remove(withdrawalPanel);\ \ \ \r\n\t\t\t\ \ \ basePanel.repaint();\r\n\t\t\t\ \ \ WithdrawalUI\ withdrawalPanel\ \=\ new\ WithdrawalUI(basePanel,\ userAccountNumber,\ info,\ \r\n\t\t\t\t\t\ \ \ \t\t\t\t\t\t\tcashDispenser\ );\ \r\n\t\t}\r\n\ \ \ \r\n}
+comment3.params=
+comment3.target=void\ execute()
+comment4.params=
+comment4.target=void\ exit()
+numComments=5

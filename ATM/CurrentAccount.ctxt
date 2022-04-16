@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CurrentAccount
+comment1.params=theAccountNumber\ thePIN\ theAvailableBalance\ theTotalBalance\ limit
+comment1.target=CurrentAccount(int,\ int,\ double,\ double,\ double)
+comment2.params=theAccountNumber\ thePIN\ theAvailableBalance\ theTotalBalance
+comment2.target=CurrentAccount(int,\ int,\ double,\ double)
+comment3.params=
+comment3.target=double\ GetLimit()
+comment4.params=value
+comment4.target=void\ SetLimit(double)
+numComments=5

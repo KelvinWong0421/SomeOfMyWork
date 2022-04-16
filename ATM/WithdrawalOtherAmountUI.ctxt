@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WithdrawalOtherAmountUI
+comment1.params=bPanel\ userAccountNumber\ atmBankDatabase\ atmCashDispenser
+comment1.target=WithdrawalOtherAmountUI(javax.swing.JPanel,\ int,\ BankDatabase,\ CashDispenser)
+comment2.params=
+comment2.target=void\ confirmation()
+comment2.text=public\ void\ confirmation()\ \r\n\t{\r\n\t\tint\ confirmation\ \=\ JOptionPane.showConfirmDialog(null,\ "You\ are\ going\ to\ withdrawal\ $"\ +\ amount,\ "Confirmation",JOptionPane.YES_NO_OPTION);\r\n\t\tif\ (confirmation\ \=\=\ 0)\r\n\t\t{\r\n\t\t\texecute();\r\n\t\t\tif\ (exiting\ \=\=\ true)\r\n\t\t\texit();\r\n\t\t}\r\n\t\t\r\n\t\telse\r\n\t\t{\r\n\t\t\tbasePanel.remove(inputPanel);\ \ \ \r\n\t\t\t\ \ \ basePanel.repaint();\r\n\t\t\t\ \ \ WithdrawalOtherAmountUI\ inputPanel\ \=\ new\ WithdrawalOtherAmountUI(basePanel,\ accountNum,\ info,\ \r\n\t\t\t\t\t\t\ cashDispenser\ );\ \r\n\t\t}\r\n\ \ \ \r\n\t}\r\n
+comment3.params=
+comment3.target=void\ execute()
+comment4.params=
+comment4.target=void\ exit()
+numComments=5
